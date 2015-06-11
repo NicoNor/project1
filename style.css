@@ -1,7 +1,51 @@
 body {
-	background-color: #704108;
-	}
+	background-color: #FFFED4;
+}
 	
+	
+
+
+/*-------adding Lora font---------*/
+@font-face {
+	font-family: lora;
+	src: url(http://fonts.googleapis.com/css?family=Lora);
+}
+/*---------End of font addition: Lora--------*/
+
 h1 {
-color: blue;
-	}
+	font-family: lora;
+}	
+
+	
+/*---------Navigation code-----------*/
+#navigation li {
+	display: inline;
+	margin-right: 10px;
+	text-decoration: none;
+}
+
+/*unvisited link*/
+a:link {
+	color:red;
+	text-decoration: none;
+}
+
+/*visited link*/
+a:visited {
+	color:red;
+	text-decoration: none;
+}
+	
+/*mouse over link*/
+a:hover {
+	color:red;
+	text-decoration: none;
+}
+	
+/*selected link*/
+a:active {
+	color:blue;
+	text-decoration: none;
+}
+/*-----------End Of Navigation Code-------------*/
+	
