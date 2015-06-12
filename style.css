@@ -14,15 +14,47 @@ body {
 	-webkit-box-shadow: 0 0 10px #777;
 	box-shadow: 5px #777;
 }
-	
-	
-
 
 /*-------adding Lora font---------*/
 @font-face {
 	font-family: lora;
 	src: url(http://fonts.googleapis.com/css?family=Lora);
 }/*---------End of font addition: Lora--------*/
+
+/*---------Navigation code-----------*/
+nav {
+	text-align: center;
+}
+
+#navigation li {
+	display: inline;
+	margin-right: 10px;
+	text-decoration: none;
+}
+
+/*unvisited link*/
+a:link {
+	color:red;
+	text-decoration: none;
+}
+
+/*visited link*/
+a:visited {
+	color:red;
+	text-decoration: none;
+}
+	
+/*mouse over link*/
+a:hover {
+	color:red;
+	text-decoration: none;
+}
+	
+/*selected link*/
+a:active {
+	color:blue;
+	text-decoration: none;
+}/*-----------End Of Navigation Code-------------*/
 
 
 /*--------------Main Styles------------*/
@@ -79,41 +111,6 @@ ol {
 
 /*---------End of Main Styles------------*/
 
-
-/*---------Navigation code-----------*/
-nav {
-	text-align: center;
-}
-
-#navigation li {
-	display: inline;
-	margin-right: 10px;
-	text-decoration: none;
-}
-
-/*unvisited link*/
-a:link {
-	color:red;
-	text-decoration: none;
-}
-
-/*visited link*/
-a:visited {
-	color:red;
-	text-decoration: none;
-}
-	
-/*mouse over link*/
-a:hover {
-	color:red;
-	text-decoration: none;
-}
-	
-/*selected link*/
-a:active {
-	color:blue;
-	text-decoration: none;
-}/*-----------End Of Navigation Code-------------*/
 
 /*-----Footer------*/
 
