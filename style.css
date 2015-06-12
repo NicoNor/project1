@@ -1,6 +1,7 @@
 body {
 	background-color: #FFFED4;
 	margin: 0;
+	font: 16px arial, verdana, georgia;
 }
 
 #wrapper {
@@ -9,6 +10,9 @@ body {
 	background-color: #fff;
 	border: 2px solid #000;
 	padding: 5px 10px;
+	-moz-box-shadow: 0 0 10px #777;
+	-webkit-box-shadow: 0 0 10px #777;
+	box-shadow: 5px #777;
 }
 	
 	
@@ -18,12 +22,11 @@ body {
 @font-face {
 	font-family: lora;
 	src: url(http://fonts.googleapis.com/css?family=Lora);
-}
-/*---------End of font addition: Lora--------*/
+}/*---------End of font addition: Lora--------*/
 
 
 /*--------------Main Styles------------*/
-h1,h2,h3 {
+h1,h2,h3, #quote {
 	font-family: lora, arial, georgia;
 }
 /*====Header/Main Title====*/
@@ -37,13 +40,47 @@ h1 {
 	border-radius: 20px;
 	-moz-border-radius: 20px;
 	-webkit-border-radius: 20px;
+}/*End of Header/Main Title*/
+
+/*-------Header and Sub Headers-------*/
+h2 {
+	text-align:center;
+	font: 24px;
 }
+
+h3 {
+	text-align: center;
+	font: 18px;
+	text-decoration: underline;
+}/*-------End Header/Sub Headers-------*/
+/* Figures */
+figure {
+	margin: 10px 27%;
+	padding: 5px;
+	font-variant: small-caps;
+	text-align:center;
+	border: 2px solid #000;
+}/*End of figures/*
+/* Calendar */
+#calendar {
+	width: 150px;
+	height: 150px;
+	margin: 0 auto;
+}/* Calendar End */
+
+/* Most popular LIST */
+ol {
+	list-style-type: upper-roman;
+}
+
+/* Most popular list End */
+
+
 
 /*---------End of Main Styles------------*/
 
 
 /*---------Navigation code-----------*/
-
 nav {
 	text-align: center;
 }
@@ -76,6 +113,16 @@ a:hover {
 a:active {
 	color:blue;
 	text-decoration: none;
+}/*-----------End Of Navigation Code-------------*/
+
+/*-----Footer------*/
+
+footer {
+	background-color: grey;
+	color: white;
 }
-/*-----------End Of Navigation Code-------------*/
-	
+q {
+	font: italic small-caps bold 14px/140% arial;
+	text-shadow: 1px 1px 0px #000;
+	opacity: .8;
+}/*-----Footer End------*/
