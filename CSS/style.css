@@ -5,7 +5,7 @@ body {
 }
 
 #wrapper {
-	width: 600px;
+	width: 960px;
 	margin: 0 auto;
 	background-color: #fff;
 	border: 2px solid #000;
@@ -34,7 +34,7 @@ nav {
 
 /*unvisited link*/
 a:link {
-	color:red;
+	color: #777;
 	text-decoration: none;
 }
 
@@ -87,12 +87,14 @@ h3 {
 }/*-------End Header/Sub Headers-------*/
 /* Figures */
 figure {
-	margin: 10px 27%;
-	padding: 5px;
+	margin: 20px 10px;
 	font-variant: small-caps;
 	text-align:center;
 	border: 2px solid #000;
-}/*End of figures/*
+	height: 250px;
+	width: 250px;
+}
+/*End of figures/*
 /* Calendar */
 #calendar {
 	width: 150px;
@@ -116,10 +118,32 @@ ol {
 
 footer {
 	background-color: grey;
-	color: white;
+	color: #fff;
+	clear: left;
 }
 q {
 	font: italic small-caps bold 14px/140% arial;
 	text-shadow: 1px 1px 0px #000;
 	opacity: .8;
 }/*-----Footer End------*/
+
+/*-----3 column------*/
+aside, #about-us, #window-shop {
+	width: 300px;
+	margin: 10px;
+	float: left;
+}
+
+#wscontent {
+	height: 260px;
+	overflow: scroll;
+	border: 2px solid #000;
+	background-color: #777;
+	padding: 0 0 0 10px;
+}
+#mpi {
+	margin: 0 0 0 60px;
+}
+	
+	
+/*-----End 3 column------*/
