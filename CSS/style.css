@@ -3,7 +3,7 @@
 
 
 body {
-	background-color: #FFFED4;
+	background: url("../images/muffin.png") repeat-y 4% 0 ,url("../images/muffin.png") repeat-y 96% 0, url("../images/dark-tile.gif");
 	margin: 1%;
 	font: 1em arial, verdana, georgia; /*16px*/
 }
@@ -13,7 +13,6 @@ body {
 	margin: 0% 15.71%; /* 1400-960=440px | 440/2=220 | 220/1400= 15.71% */
 	background-color: #fff;
 	border: .125em solid #000; /*2px*/
-	padding: .52% 1.04%; /*5x, 10px*/
 	-moz-box-shadow: 0 0 .625em #777;
 	-webkit-box-shadow: 0 0 .625em #777;
 	box-shadow: .313px #777;
@@ -44,19 +43,19 @@ a:link {
 
 /*visited link*/
 a:visited {
-	color:red;
+	color: #000;
 	text-decoration: none;
 }
 	
 /*mouse over link*/
 a:hover {
-	color:red;
+	color: #87511E;
 	text-decoration: none;
 }
 	
 /*selected link*/
 a:active {
-	color:blue;
+	color: #FFD8B2;
 	text-decoration: none;
 }/*-----------End Of Navigation Code-------------*/
 
@@ -69,14 +68,18 @@ h1,h2,h3, #quote {
 h1 {
 	text-align: center;
 	color: #fff;
-	background-color: Brown; /*CHANGE TO IMAGE BACKGROUND*/
+	background: linear-gradient(#7F5419, #D4B794);
 	margin: 0% 27%;
 	border: .250em solid #000; /*4px*/
 	padding: .250em;
 	border-radius: 1.250em; /*20px*/
 	-moz-border-radius: 1.250em;
 	-webkit-border-radius: 1.250em;
-}/*End of Header/Main Title*/
+}
+header {
+	background-image: url("../images/light-tile.gif");
+}
+/*End of Header/Main Title*/
 
 /*-------Header and Sub Headers-------*/
 h2 {
@@ -152,3 +155,26 @@ aside, #about-us, #window-shop {
 	
 	
 /*-----End 3 column------*/
+
+/*-----Icons-----*/
+
+#au {
+	background: url("../images/about.png") no-repeat 10% 0;
+	padding: .625em 0;
+}
+
+#ws {
+	background: url("../images/eye.png") no-repeat;
+	padding: .625em 0;
+}
+
+#cal {
+	background: url("../images/cal.png") no-repeat 10% 0;
+	padding: .625em 0;
+}
+
+#about {
+	background: url("../images/group.png") no-repeat 50%;
+}
+
+/*End Of Icons---*/
