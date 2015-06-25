@@ -30,7 +30,7 @@ nav {
 }
 
 #navigation li {
-	display: inline;
+	display: inline-block;
 	margin-right: 1.04%;
 	text-decoration: none;
 }
