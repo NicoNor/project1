@@ -116,6 +116,53 @@
 			</tr>
 		</table><!--Table End-->
 		
+		<form
+		action="http://example.com/join.php" method="get">
+			
+			<label for="username">Username:</label>
+			<input type="text" name="username" maxlength="10" required="required" id="username"/>
+		
+			<p> Which one of these do you prefer?<br />
+			
+				<label for="truffles-id">Truffles</label>
+				<input type="checkbox" name="dessert" value="truffles" checked="checked" id="truffles-id" />
+		
+				<label for="cake-id">Cake</label>
+				<input type="checkbox" name="dessert" vale="cake" id="cake-id" />
+		
+				<label for="palmera-id">Palmeras</label>
+				<input type="checkbox" name="dessert" vale="palmera" id="palmera-id" />
+		
+				<label for="donut-id">Donuts</label>
+				<input type="checkbox" name="dessert" vale="donut" id="donut-id" />
+			
+			</p>
+			
+		
+			<label> Which would you have in the morning?</label>
+		
+				<select name="morning">
+		
+					<option value="truffles">Truffles</option>
+					<option value="cake">Cake</option>
+					<option value="palmeras">Palmeras</option>
+					<option value="donuts">Donuts</option>
+					
+				</select>
+			
+			
+			<label for="ideas-id">Let us know what you want to see next!</label>
+				<textarea name="ideas" cols="25" rows="5" id="ideas-id">Enter your ideas!!!</textarea>
+			
+			<label for="email-id">Don't forget to subscribe to our email list. You don't wanna miss our weekly sweets!</label>
+			
+				<input type="email" name="email" placeholder="E-mail" id="email-id" />
+				
+				<input type="submit" value="Subscribe" />
+			
+			
+		</form><!--Form End-->
+		
 		<footer>
 			<p>&copy; Sweet Blossoms</p>
 			<p id="quote"><q>There is no path to happiness... happiness is the path.</q>-Gautama Buddha</p>
